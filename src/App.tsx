@@ -1,18 +1,18 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
-import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Hero from "./Hero";
 import About from "./About";
+import Contact from "./Contact";
+import Work from "./Work";
 
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
-      <Hero />
       <Routes>
-        <Route path="/about" element={<About />}></Route>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

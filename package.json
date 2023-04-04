@@ -1,8 +1,9 @@
 {
-  "homepage": "https://github.com/harunkim/ramio-clone",
+  "homepage": "https://harunkim.github.io/ramio-clone",
   "name": "react",
   "private": true,
   "version": "0.0.0",
+  "main": "App.tsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,8 +12,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@ionic/react": "^7.0.0",
-    "ionicons": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ionicons": "^4.2.0"
@@ -26,7 +25,7 @@
     "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
-    "react-router-dom": "^6.10.0",
+    "react-router-dom": "^6.4.1",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.0.3",
     "vite": "^4.2.0"

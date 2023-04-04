@@ -25,13 +25,13 @@ const HeroTxt = () => {
             About us
           </Link>
           <Link
-            to=""
+            to="/work"
             className="font-bold p-4 border-b-2 border-b-transparent hover:border-black hover:border-b-2"
           >
             Our works
           </Link>
           <Link
-            to=""
+            to="/contact"
             className="font-bold p-4 border-b-2 border-b-transparent hover:border-black hover:border-b-2"
           >
             Contact
